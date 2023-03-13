@@ -1,4 +1,4 @@
-name: teste Environments
+name: prod Environments
 
 on:
   push:

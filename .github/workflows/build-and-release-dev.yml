@@ -1,4 +1,4 @@
-name: teste Environments
+name: dev environemnt
 
 on:
   push:
