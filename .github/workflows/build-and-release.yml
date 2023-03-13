@@ -13,5 +13,5 @@ jobs:
     - name: Build the Docker image
       run: |
         echo ${{ secrets.OLA }}
-        echo ${{ env.OLA }}
+        echo env
 
