@@ -1,0 +1,16 @@
+name: teste2 environemnt
+
+on:
+  push:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    concurrency: $GITHUB_REF
+    environment: teste
+    steps:
+    - uses: actions/checkout@v3
+    - name: Build the Docker image
+      run: |
+        echo ${{ secrets.OLA }}
+        echo ${{ vars.OUTRO }}
