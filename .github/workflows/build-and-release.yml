@@ -13,5 +13,4 @@ jobs:
     - name: Build the Docker image
       run: |
         echo ${{ secrets.OLA }}
-        env
-
+        env | sort
