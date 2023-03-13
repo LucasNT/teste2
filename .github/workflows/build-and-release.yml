@@ -14,4 +14,3 @@ jobs:
       run: |
         echo ${{ secrets.OLA }}
         echo ${{ vars.OUTRO }}
-        env | sort
