@@ -7,7 +7,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     concurrency: $GITHUB_REF
-    environment: prod
+    environment: teste
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
